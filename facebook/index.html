@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/edaf8e3742.js" crossorigin="anonymous"></script>
+    <title>Facebook</title>
+    <style>
+        #container {
+            width: 300px;
+            height: 600px;
+            color: white;
+            margin: auto;
+        }
+        .img {
+            width: auto;
+            height: 200px;
+        }
+        img {
+            width: 300px;
+            height: 200px;
+            border-top-right-radius: 30px;
+            border-top-left-radius: 30px;
+        }
+        .body {
+            height: 400px;
+            text-align: center;
+            background-color: black;
+            border-bottom-left-radius: 30px;
+            border-bottom-right-radius: 30px;
+            margin-top: 0px;
+        }
+        input {
+            font-size: 20px;
+            margin-top: 30px;
+            background-color: black;
+            color: white;
+            border: none;
+        }
+        button {
+            background-color: blue;
+            color: white;
+            margin-top: 20px;
+            width: 250px;
+            padding: 8px;
+            border-radius: 10px;
+            font-size: 15px;
+            margin-top: 0px;
+        }
+        .hr {
+            width: 250px;
+            text-align: center;
+            color: black;
+        }
+        a {
+            text-decoration: none;
+            color: blueviolet;
+            font-family: arial;
+        }
+        .footer {
+            background-color: green;
+            width: 200px;
+            text-align: center;
+            padding: 5px;
+            margin: auto;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div class="img"><img src="fb1.jpg" width="300px" height="200px"></div>
+        <div class="body">
+            <form>
+                <input type="text" name="text" placeholder="Phone or email"
+                    title="phone number contain ten charcters"><br>
+                <hr class="hr">
+                <input type="password" name="password" placeholder="Password"
+                    pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,12}" title="Password must contain at 
+                    least one number 
+                    and one uppercase and lowercase letter, and at least 8 or more">
+                <hr class="hr">
+                <br>
+                <button id="log in">Log In</button>
+                <br><br>
+                <a href="#"><b>Forgot Password?</b></a>
+                <br><br>
+                 </form>
+                <div class="last" style="display: flex;">
+                <div style="width:100px; margin-left:20px ; margin-right:20px ;">
+                <hr>
+                </div>or
+                <div style="width:100px; margin-left:20px ;">
+                <hr>
+                </div>
+                </div>
+                <br>
+                <div class="footer">
+                Create new Facebook account
+                </div>
+               </div>
+               </div>
+
+               </body>
+
+              </html>
